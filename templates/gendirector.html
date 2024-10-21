@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static "gendirector.css" %}">
+</head>
+<body>
+    <div class="start">
+        <div class="start1">
+            <p> <b> I T </b> c o m p a n y</p>
+        </div>
+        <div class="start2">
+            <p>About</p>
+            <p>Passions</p>
+            <p>Portfolio</p>
+            <a href="{% url "home" %}">
+                <button class="butstart" ><b>Home</b></button>
+             </a>
+        </div>
+        <div class="start3">
+            <img  src="{% static "menu-icon.png" %}" alt="">
+        </div>
+    </div>
+
+    <div class="first">
+        <div class="text">
+        <div class="first1">
+            <p>Hi ! <br>
+               <b style="font-size: 30px;line-height: 37px;"> I’m Shamsiddin Arbobzoda. <br>
+                a Back-End Developer </b> 
+            </p>
+         </div>
+        <div class="first2">
+            <p style="color: rgba(8, 32, 50, 1); font-size: 25px;">Back-End developer based in Dushanbe, Tajikistan
+                I’am coding with a clean and beautiful problem
+                solving in mind.</p>
+        </div>
+       </div>
+       <div class="photo">
+        <img class="photo1" src="{% static "heroImg 1.png" %}" alt="">
+       </div>
+    </div>
+
+    <div class="second">
+        <p style="color: rgba(0, 34, 101, 1); font-size: 35px;">Additional <b> Passions </b> </p>
+        <div class="triples">
+         <div class="triple">
+            <img src="{% static "undraw_Wireframing_re_q6k6 1.png" %}" alt="">
+            <p style="font-size: 25px;"><b>Front-End</b> Developer</p>
+            <p style="font-size: 18px;">(Sass, Bootstrap, Tailwind)</p>
+         </div>
+         <div class="triple">
+            <img src="{% static "undraw_Detailed_analysis_re_tk6j 1.png" %}" alt="">
+            <p style="font-size: 25px;"><b>Back-End</b> Developer</p>
+            <p style="font-size: 18px;">(Python, Django, NodeJS)</p>
+         </div>
+         <div class="triple">
+            <img src="{% static "undraw_Design_process_re_0dhf 1.png" %}" alt="">
+            <p style="font-size: 25px;"><b>UX/UI</b> Designer</p>
+            <p style="font-size: 18px;">(Figma, Zeplin, Adobe XD)</p>
+         </div>
+        </div>
+    </div>
+
+    <div class="third">
+        <p style="color: rgba(0, 34, 101, 1); font-size: 35px;">My <b> Portfolio </b> </p>
+       <div class="thids">
+        <img src="{% static "Sendpay.png" %}" alt="">
+        <img src="{% static "E-commerce.png" %}" alt="">
+        <img src="{% static "B Learning.png" %}" alt="">
+       </div>
+    </div>
+
+    <div class="fourth">
+        <p style="color: rgba(0, 34, 101, 1); font-size: 35px;">Contact <b> Me </b> </p>
+        <div class="rasm">
+            <div class="znak">
+                <div class="icons">
+                    <img src="{% static "github.png" %}" alt="">
+                </div>
+                <p style="font-size: 35px; color: rgba(63, 61, 86, 1); padding-left: 15px; padding-top: 20px;">GitHub</p>
+            </div>
+
+            <div class="znak">
+                <div class="icons">
+                    <img class="m1" src="{% static "Instagram.png" %}" alt="">
+                </div>
+                <p style="font-size: 35px; color: rgba(63, 61, 86, 1); padding-left: 15px; padding-top: 20px;">Instagram</p>
+            </div>
+
+            <div class="znak">
+                <div class="icons">
+                    <img src="{% static "fast message.png" %}" alt="">
+                </div>
+                <p style="font-size: 35px; color: rgba(63, 61, 86, 1); padding-left: 35px; padding-top: 20px;">  Email</p>
+            </div>
+
+            <div class="znak">
+                <div class="icons">
+                    <img src="{% static "call.png" %}" alt="">
+                </div>
+                <p style="font-size: 35px; color: rgba(63, 61, 86, 1); padding-left: 15px; padding-top: 20px;">Telephone</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="oxir">
+        <p style="font-size: 35px; color: rgba(255, 255, 255, 1);">Design by Shamsiddin</p>
+    </div>
+</body>
+</html>
